@@ -87,7 +87,7 @@ namespace Lab_8
         {
             if (Output == null) return null;
 
-            return string.Join('\n', Output);
+            return string.Join("\r\n", Output);
         }
 
 
